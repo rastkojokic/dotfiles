@@ -1,0 +1,9 @@
+[user]
+	name = Nebojša Stričević
+	email = nebojsa.stricevic@gmail.com
+
+[alias]
+  ci = commit
+  co = checkout
+  st = status
+  br = branch
