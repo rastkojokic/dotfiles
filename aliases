@@ -1,0 +1,8 @@
+# Unix
+alias g="git"
+alias v="vim"
+
+# Ruby on Rails
+alias be="bundle exec"
+alias rs="bundle exec rake spec"
+alias rc="bundle exec cucumber --format=pretty"
