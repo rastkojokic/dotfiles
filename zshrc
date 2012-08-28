@@ -31,11 +31,12 @@ COMPLETION_WAITING_DOTS="true"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 plugins=(git compleat)
 
-source $ZSH/oh-my-zsh.sh
-source ~/.aliases
-
 # Customize to your needs...
 export PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
 export TERM=screen-256color
+
+source $ZSH/oh-my-zsh.sh
+source ~/.aliases
+source ~/.zshenv
 
 stty stop ''
