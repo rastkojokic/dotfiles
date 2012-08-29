@@ -1,6 +1,7 @@
 # Unix
 alias g="git"
 alias v="vim"
+alias gr="grep -rn"
 
 # Ruby on Rails
 alias be="bundle exec"
