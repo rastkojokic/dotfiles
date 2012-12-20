@@ -1,6 +1,7 @@
 # Unix
 alias g="git"
 alias v="vim"
+alias z="zeus"
 alias gr="grep -rn"
 
 # Ruby on Rails
