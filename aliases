@@ -14,3 +14,4 @@ alias pewpewpew="bundle exec rake db:drop db:create db:migrate db:test:prepare"
 
 # Git
 alias mergestg="git checkout staging && git pull && git merge development && git push"
+alias grc="git add . && git rebase --continue"
