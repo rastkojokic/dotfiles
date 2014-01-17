@@ -1,31 +1,17 @@
 [user]
-	name = Nebojša Stričević
-	email = nebojsa.stricevic@gmail.com
+  name = Rastko Jokic
+  email = rastko@renderedtext.com
   editor = vim
-
 [github]
-  user = strika
-  token = 4f43044f8b862a6c0496fb6f67901377
-
+  user = rastkojokic
+  token = da8c66c7bb44ea760b06f027986e54a73564ed76
 [color]
+  branch = auto
+  status = auto
+  diff = auto
   ui = auto
-[color "branch"]
-  current = yellow reverse
-  local = yellow
-  remote = green
-[color "diff"]
-  meta = yellow bold
-  frag = magenta bold
-  old = red bold
-  new = green bold
-[color "status"]
-  added = yellow
-  changed = green
-  untracked = cyan
-
 [push]
   default = current
-
 [alias]
   a = add
   st = status
@@ -39,12 +25,4 @@
   who = shortlog -s --
   pl = pull
   ps = push
-  lol = log --graph --decorate --pretty=oneline --abbrev-commit
-  lola = log --graph --decorate --pretty=oneline --abbrev-commit --all
-  ls = ls-files
-  last = describe --abbrev=0 --tags
-  rpo = remote prune origin
-  rso = remote show origin
-
-[core]
-	editor = vim
+  pru = remote prune origin
