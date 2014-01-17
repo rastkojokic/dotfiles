@@ -17,5 +17,7 @@ alias brakeman="bundle exec brakeman -o tmp/brakeman-report.html"
 
 # Git
 alias grc="git add . && git rebase --continue"
+alias grp="git remote prune origin"
+alias grs="git remote show origin"
 alias mergestg="git checkout development && git pull && git checkout staging && git pull && git merge development && git push"
 alias mergemaster="git checkout staging && git pull && git checkout master && git pull && git merge staging && git push" 
