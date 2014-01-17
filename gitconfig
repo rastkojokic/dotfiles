@@ -43,6 +43,8 @@
   lola = log --graph --decorate --pretty=oneline --abbrev-commit --all
   ls = ls-files
   last = describe --abbrev=0 --tags
+  rpo = remote prune origin
+  rso = remote show origin
 
 [core]
 	editor = vim
