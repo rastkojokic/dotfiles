@@ -68,23 +68,26 @@ export PATH=$HOME/bin:/usr/local/bin:$PATH
 # export SSH_KEY_PATH="~/.ssh/dsa_id"
 
 
+# Git
+alias grc="git add . && git rebase --continue"
+alias mergestg="git checkout development && git pull && git checkout staging && git pull && git merge development && git push"
+alias mergemaster="git checkout staging && git pull && git checkout master && git pull && git merge staging && git push"
+
 # unix
 alias ll="ls -lah"
 alias g="git"
+alias st="status"
 alias v="vim"
 alias e="vim"
 alias ack="ack-grep"
+alias gr="grep -rn"
 alias f="fg"
 
 # rails
+alias b="bundle"
+alias bi="bundle install"
 alias be="bundle exec"
 alias rs="bundle exec rspec spec"
 alias rr="bundle exec rake routes"
-alias rc="bundle exec cucumber --format=pretty"
-alias rcw="bundle exec cucumber --profile=wip --format=pretty"
-alias rdbm="bundle exec rake db:migrate"
-alias rdbtp="bundle exec rake db:test:prepare"
-alias bes="bundle exec spork"
-alias besc="bundle exec spork cucumber"
-alias server="bundle exec rails server thin"
+alias server="bundle exec rails server"
 alias console="bundle exec rails console"
