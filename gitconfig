@@ -1,10 +1,3 @@
-[user]
-  name = Rastko Jokic
-  email = rastko@renderedtext.com
-  editor = vim
-[github]
-  user = rastkojokic
-  token = da8c66c7bb44ea760b06f027986e54a73564ed76
 [color]
   branch = auto
   status = auto
