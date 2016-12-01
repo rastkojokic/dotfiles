@@ -95,3 +95,6 @@ alias console="bundle exec rails console"
 # sequelize
 alias migrate="sequelize db:migrate"
 alias undo="sequelize db:migrate:undo:all"
+
+export NVM_DIR="/home/vagrant/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
