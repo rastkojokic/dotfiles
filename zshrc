@@ -91,3 +91,7 @@ alias rs="bundle exec rspec spec"
 alias rr="bundle exec rake routes"
 alias server="bundle exec rails server"
 alias console="bundle exec rails console"
+
+# sequelize
+alias migrate="sequelize db:migrate"
+alias undo="sequelize db:migrate:undo:all"
